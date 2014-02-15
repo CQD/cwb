@@ -1,0 +1,36 @@
+application: steady-vine-436
+version: 1
+runtime: php
+api_version: 1
+threadsafe: true
+
+handlers:
+
+- url: /css
+  static_dir: css
+
+- url: /js
+  static_dir: js
+
+- url: /img
+  static_dir: img
+
+- url: /template.html
+  static_files: template.html
+  upload: /template.html
+
+- url: /favicon.ico
+  static_files: favicon.ico
+  upload: /favicon.ico
+
+- url: /phpinfo
+  script: phpinfo.php
+
+- url: /phpinfo/.*
+  script: phpinfo.php
+
+- url: /api/identicon*
+  script: api/identicon.php
+
+- url: /.*
+  script: helloworld.php

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>    <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>     <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>     <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/meteocons.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+
+    <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+  </head>
+  <body>
+  <div id="bg"></div>
+    <div class="header container">
+      <div class="wrapper clearfix">
+        <h1 class="title">h1.title</h1>
+
+      </div>
+    </div>
+
+    <div class="main container">
+      <div class="main wrapper clearfix">
+        <div class="col">
+          <div id='city'><span>台北市</span><br><small>Taipei City</small></div>
+          <div id="current">
+            <div id='temp'>12°C</div>
+            <div id="weather">
+              <div id="weather_icon" class='f12'></div>
+              <div id='weather_text'><span>陰有雨</span><small>11°~13°</small></div>
+            </div>
+          </div>
+          <div id="memo">
+          <p>清晨氣溫偏低，白天回暖有短暫雨。
+          <p>昨天（１４日）受強烈大陸冷氣團及華南雲雨區同時影響著臺灣，各地氣溫偏低，臺北站區清晨測得低溫11.4度，而白天高溫僅回升至12.8度；臺北市近山區有大雨等級的降雨，而平地白天幾乎沒有降雨。
+          <p>強烈大陸冷氣團及華南雲雨區的影響會持續到今天（１５日），清晨氣溫還是偏低，清晨低溫僅11.7度；週六（１５日）白天開始一直到下週二，溫度將一天一天的回暖，臺灣附近會從原本的東北風逐漸轉為偏東風，甚至東南風，各區都有四到五度左右的回升，但提醒大家，這個週末雖然溫度逐漸回升，但還是會下雨，週六全臺有短暫雨，尤其基隆北海岸和大臺北山區下雨的時間較長，而且已經連日降雨，請小心提防坍方跟落石的情形。
+          </div>
+        </div>
+        <div class="col">
+          <h2>今明預報</h2>
+          <div class="forcast">
+          <table>
+            <tr>
+              <th colspan="2">台北市</th><th>溫度(C)</th><th>天氣狀況</th><th>舒適度</th><th>降雨機率</th>
+            </tr>
+            <tr>
+              <td>今晚至明晨</td><td>00:00 - 06:00</td><td>11°-12°</td><td></td><td>寒冷</td><td>70%</td>
+            </tr>
+            <tr>
+              <td>明日白天</td><td>00:00 - 06:00</td><td>11°-12°</td><td></td><td>寒冷</td><td>70%</td>
+            </tr>
+            <tr>
+              <td>明日晚上</td><td>00:00 - 06:00</td><td>11°-12°</td><td></td><td>寒冷</td><td>70%</td>
+            </tr>
+          </table>
+          </div>
+          <h2>一週預報</h2>
+          <div class="forcast">
+          <table>
+            <tr>
+              <th colspan="2">台北市</th><th>溫度(C)</th><th>天氣狀況</th><th>舒適度</th><th>降雨機率</th>
+            </tr>
+            <tr>
+              <td>今晚至明晨</td><td>00:00 ~ 06:00</td><td>11°-12°</td><td></td><td>寒冷</td><td>70%</td>
+            </tr>
+            <tr>
+              <td>明日白天</td><td>00:00 ~ 06:00</td><td>11°-12°</td><td></td><td>寒冷</td><td>70%</td>
+            </tr>
+            <tr>
+              <td>明日晚上</td><td>00:00 ~ 06:00</td><td>11°-12°</td><td></td><td>寒冷</td><td>70%</td>
+            </tr>
+          </table>
+          </div>
+        </div>
+
+      </div> <!-- #main -->
+    </div> <!-- #main-container -->
+
+    <div class="footer container">
+      <div class="wrapper">
+        <div class='footer_line'></div>
+        <ul class="hozList">
+          <li><a href="#">說明</a></li>
+          <li><a href="#">版權宣告</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+
+    <script src="js/main.js"></script>
+
+    <script>
+      var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+      g.src='//www.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'));
+    </script>
+  </body>
+</html>
