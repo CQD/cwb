@@ -13,6 +13,7 @@ textarea {
 body {
   font-size: 1em;
   line-height: 1.4;
+  font-family: Arial, 'Heiti TC', 'LiHei Pro', 新細明體, sans-serif
 }
 
 
@@ -118,19 +119,19 @@ h1.title{font-size:1em;}
   display: block; float: left;
 }
 
-#weather_icon{
+.weather_icon{
   font-size: 3em;
   float:left;
   margin-left:0.5em;
   position: relative;
   top: -13px;
 }
-#weather_icon:before{
+.weather_icon:before{
   font-family: 'MeteoconsRegular';
   position:relative;top:10px;
   margin-right:10px;
 }
-#weather_icon.f12:before{content: 'Q'; color:#1cf;}
+.weather_icon.f12:before{content: 'Q'; color:#1cf;}
 
 #memo{
   clear:left;
