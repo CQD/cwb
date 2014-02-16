@@ -118,10 +118,10 @@ h1.title{font-size:1em;}
 
 
 
-#city span{
+#loc span{
   font-size: 3em;
 }
-#city small{
+#loc small{
   font-size: 1.3em;
   margin-left:0.3em;
 }
